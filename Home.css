@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/******TASK BAR UPPER PART BEGIN******/
+.TaskbarContainer{
+    background-color: #0B2F00;
+    height: 110px;
+    text-decoration: none;
+}
+
+.topContainer{
+    margin: 0;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #051500;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-family: 'Poppins';
+    font-size: 11px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.DR, .D{
+    color: #51AC37;
+}
+.TMO, .SL, .DR, .SM, .D, .SUL{
+    margin: 0 10px 0 10px ;
+}
+.SUL{
+    margin-right: 90px;
+    text-decoration: none;
+}
+.TMCimg, .SLimg, .SMimg{
+    width: 11px;
+    margin: auto 10px auto 10px;
+}
+
+/******TASKBAR UPPER PART END******/
+
+
+/******TASBAR MIDDLE PART BEGIN******/
+
+.middleContainer{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0 -50px;
+    font-size: 11px;
+    font-family: 'Poppins';
+}
+.home, .keelsProduct, .keelsExclusives, .allPromoions, .utilityBillPayment, .community{
+    margin: 0 10px 0 10px;
+    color: #ffffff;
+}
+.keelsProduct:hover, .keelsExclusives:hover, .allPromoions:hover{
+    color: #51AC37;
+}
+
+.home, .utilityBillPayment, .community{
+    color: #51AC37;
+}
+.home:hover, .utilityBillPayment:hover, .community:hover{
+    color: #ffffff;
+}
+.utilityBillPaymentImg, .communityImg{
+    height: 11px;
+    margin: auto 8px auto auto;
+    filter: invert(36%) sepia(82%) saturate(1037%) hue-rotate(62deg) brightness(95%);
+}
+.utilityBillPaymentImg:hover,
+ .communityImg:hover{
+    filter: invert(0%) brightness(100%);
+ }
+
+ .logo{
+    margin: -10px auto auto auto;
+
+ }
+
+ .cart{
+    color: white;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 20px;
+
+ }
+ .cartCount{
+    text-align: center;
+    border-radius: 50%;
+    background-color: #51AC37;
+    width: 20px;
+    height: 20px;
+ }
+.cartImg{
+    width: 20px;
+    height: 20px;
+}
+.priceSum{
+    color: white;
+    margin-right: 40px;
+}
+
+/******TASBAR MIDDLE PART END******/
+
+
+
